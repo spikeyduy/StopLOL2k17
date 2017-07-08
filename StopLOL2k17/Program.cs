@@ -10,8 +10,15 @@ namespace StopLOL2k17
     {
         static void Main(string[] args)
         {
+            //Application.EnableVisualStyles();
+            //Application.Run(new Form());  
+            KillApp();
+        } 
+
+        static void KillApp()
+        {
             Console.WriteLine("This program will always be looking to see if " +
-                "the program is running, and if it is, to stop it.");
+                "League of Legends is running, and if it is, to stop it.");
 
             // Method to create a lasting program that doesn't suck up
             // all the CPU. One method is to use WaitHandle
@@ -34,22 +41,20 @@ namespace StopLOL2k17
                         if (amount > 1)
                         {
                             Console.WriteLine("Killed " + amount + " Apps");
-                        } else
+                        }
+                        else
                         {
                             Console.WriteLine("Killed 1 App");
                         }
                     }
                 }
-            } while (!signaled);                     
-        } 
+            } while (!signaled);
+        }
 
         // This should give a pop up menu every time user tries to close it 
-        private void FormClosing(object sender, FormClosingEventArgs e)
+        static void FormCloser(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you really sure you want to stop this?", "Fine", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+            Console.WriteLine("exit");
         }
     }
 }
