@@ -3,3 +3,8 @@ C:\Users\spikes\Documents\Projects\StopLOL2k17\StopLOL2k17\bin\Debug\StopLOL2k17
 C:\Users\spikes\Documents\Projects\StopLOL2k17\StopLOL2k17\bin\Debug\StopLOL2k17.pdb
 C:\Users\spikes\Documents\Projects\StopLOL2k17\StopLOL2k17\obj\Debug\StopLOL2k17.exe
 C:\Users\spikes\Documents\Projects\StopLOL2k17\StopLOL2k17\obj\Debug\StopLOL2k17.pdb
+D:\Documents\Projects\StopLOL2k17\StopLOL2k17\bin\Debug\StopLOL2k17.exe.config
+D:\Documents\Projects\StopLOL2k17\StopLOL2k17\bin\Debug\StopLOL2k17.exe
+D:\Documents\Projects\StopLOL2k17\StopLOL2k17\bin\Debug\StopLOL2k17.pdb
+D:\Documents\Projects\StopLOL2k17\StopLOL2k17\obj\Debug\StopLOL2k17.exe
+D:\Documents\Projects\StopLOL2k17\StopLOL2k17\obj\Debug\StopLOL2k17.pdb

@@ -31,7 +31,6 @@ namespace StopLOL2k17
             do
             {
                 signaled = waitHandle.WaitOne(TimeSpan.FromSeconds(10));
-                Process[] procs = Process.GetProcessesByName("Calculator");
                 if (procs != null)
                 {
                     foreach (Process p in procs)
